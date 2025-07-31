@@ -180,13 +180,14 @@ public abstract class MixinServerPlayerEntity implements LeashImpl {
             return ActionResult.SUCCESS;
         }
 
-        if (leashplayers$holder == player && leashplayers$lastage + 20 < getSelf().age) {
-            if (!player.isCreative()) {
-                leashplayers$drop();
-            }
-            leashplayers$detach();
-            return ActionResult.SUCCESS;
-        }
+        //TODO
+        // if (leashplayers$holder == player && leashplayers$lastage + 20 < getSelf().age) {
+        //     if (!player.isCreative()) {
+        //         leashplayers$drop();
+        //     }
+        //     leashplayers$detach();
+        //     return ActionResult.SUCCESS;
+        // }
 
         return ActionResult.PASS;
     }

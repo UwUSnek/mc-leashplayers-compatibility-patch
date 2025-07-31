@@ -30,6 +30,8 @@ public final class LeashProxyEntity extends TurtleEntity implements Leashable {
         if (target.isSneaking()) {
             y -= 0.5D;
         }
+        y *= target.getScale(); //TODO
+
         posTarget = target.getPos().add(0.0D, y, -0.15D);
 
         if (!Objects.equals(posActual, posTarget)) {
@@ -108,13 +110,16 @@ public final class LeashProxyEntity extends TurtleEntity implements Leashable {
 
     @Override
     protected void initGoals() {
+        // Empty
     }
 
     @Override
     protected void pushAway(Entity entity) {
+        // Empty
     }
 
     @Override
     public void pushAwayFrom(Entity entity) {
+        // Empty
     }
 }
