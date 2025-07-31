@@ -1,4 +1,4 @@
-package me.snek.leashmod.mixin;
+package com.snek.leashmod.mixin;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import me.snek.leashmod.LeashImpl;
+import com.snek.leashmod.LeashImpl;
 
 @Mixin(PlayerEntity.class)
 public abstract class MixinPlayerEntity {

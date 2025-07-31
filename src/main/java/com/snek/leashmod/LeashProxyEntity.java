@@ -1,4 +1,4 @@
-package me.snek.leashmod;
+package com.snek.leashmod;
 
 import net.minecraft.entity.*;
 import net.minecraft.entity.passive.TurtleEntity;

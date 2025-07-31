@@ -1,4 +1,4 @@
-package me.snek.leashmod;
+package com.snek.leashmod;
 
 public interface LeashSettings {
     boolean isEnabled();

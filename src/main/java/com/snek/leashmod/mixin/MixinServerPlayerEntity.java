@@ -1,4 +1,4 @@
-package me.snek.leashmod.mixin;
+package com.snek.leashmod.mixin;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -12,17 +12,16 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.Vec3d;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import me.snek.leashmod.LeashImpl;
-import me.snek.leashmod.LeashPlayers;
-import me.snek.leashmod.LeashProxyEntity;
-import me.snek.leashmod.LeashSettings;
+import com.snek.leashmod.LeashImpl;
+import com.snek.leashmod.LeashPlayers;
+import com.snek.leashmod.LeashProxyEntity;
+import com.snek.leashmod.LeashSettings;
 
 @Mixin(ServerPlayerEntity.class)
 public abstract class MixinServerPlayerEntity implements LeashImpl {

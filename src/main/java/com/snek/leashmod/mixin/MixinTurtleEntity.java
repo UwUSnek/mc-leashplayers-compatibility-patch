@@ -1,4 +1,4 @@
-package me.snek.leashmod.mixin;
+package com.snek.leashmod.mixin;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.TurtleEntity;
@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import me.snek.leashmod.LeashProxyEntity;
+import com.snek.leashmod.LeashProxyEntity;
 
 import java.util.Objects;
 
