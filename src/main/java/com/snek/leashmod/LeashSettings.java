@@ -1,4 +1,4 @@
-package me.pog5.leashmod;
+package me.snek.leashmod;
 
 public interface LeashSettings {
     boolean isEnabled();

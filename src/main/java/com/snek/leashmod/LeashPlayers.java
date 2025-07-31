@@ -1,4 +1,4 @@
-package me.pog5.leashmod;
+package me.snek.leashmod;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;

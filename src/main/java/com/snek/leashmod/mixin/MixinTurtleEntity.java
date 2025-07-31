@@ -1,6 +1,5 @@
-package me.pog5.leashmod.mixin;
+package me.snek.leashmod.mixin;
 
-import me.pog5.leashmod.LeashProxyEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.TurtleEntity;
 import net.minecraft.scoreboard.Team;
@@ -9,6 +8,8 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import me.snek.leashmod.LeashProxyEntity;
 
 import java.util.Objects;
 

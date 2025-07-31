@@ -92,7 +92,7 @@ publishing {
 
 modrinth {
     token = System.getenv("MODRINTH_TOKEN")
-    projectId = "leashable-players"
+    projectId = "leashable-players-compatibility-patch"
     versionNumber = "${version}"
     versionType = "release"
     uploadFile = remapJar

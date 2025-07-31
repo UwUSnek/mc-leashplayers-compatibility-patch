@@ -18,5 +18,5 @@ This mod is available under the MIT license. Feel free to learn from it and inco
 
 ## Credit
 
-I would like to thank luavixen for the original idea and most of the code for the mod.
-Also credits to Nvidium for the config system.
+Original mod by pog5 and terminalmaid.
+https://modrinth.com/mod/leashable-players

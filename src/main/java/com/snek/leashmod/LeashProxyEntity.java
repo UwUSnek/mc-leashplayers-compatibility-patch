@@ -1,4 +1,4 @@
-package me.pog5.leashmod;
+package me.snek.leashmod;
 
 import net.minecraft.entity.*;
 import net.minecraft.entity.passive.TurtleEntity;
@@ -30,7 +30,10 @@ public final class LeashProxyEntity extends TurtleEntity implements Leashable {
         if (target.isSneaking()) {
             y -= 0.5D;
         }
-        y *= target.getScale(); //TODO
+
+        // Modification by UwU_Snek. Not part of the original code.
+        y *= target.getScale();
+        // End of modification
 
         posTarget = target.getPos().add(0.0D, y, -0.15D);
 

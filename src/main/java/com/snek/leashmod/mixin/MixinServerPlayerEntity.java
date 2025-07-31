@@ -1,9 +1,5 @@
-package me.pog5.leashmod.mixin;
+package me.snek.leashmod.mixin;
 
-import me.pog5.leashmod.LeashImpl;
-import me.pog5.leashmod.LeashPlayers;
-import me.pog5.leashmod.LeashProxyEntity;
-import me.pog5.leashmod.LeashSettings;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -22,6 +18,11 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import me.snek.leashmod.LeashImpl;
+import me.snek.leashmod.LeashPlayers;
+import me.snek.leashmod.LeashProxyEntity;
+import me.snek.leashmod.LeashSettings;
 
 @Mixin(ServerPlayerEntity.class)
 public abstract class MixinServerPlayerEntity implements LeashImpl {
@@ -180,14 +181,17 @@ public abstract class MixinServerPlayerEntity implements LeashImpl {
             return ActionResult.SUCCESS;
         }
 
-        //TODO
-        // if (leashplayers$holder == player && leashplayers$lastage + 20 < getSelf().age) {
-        //     if (!player.isCreative()) {
-        //         leashplayers$drop();
-        //     }
-        //     leashplayers$detach();
-        //     return ActionResult.SUCCESS;
-        // }
+        // Modification by UwU_Snek. Not commented in the original code.
+        /*
+        if (leashplayers$holder == player && leashplayers$lastage + 20 < getSelf().age) {
+            if (!player.isCreative()) {
+                leashplayers$drop();
+            }
+            leashplayers$detach();
+            return ActionResult.SUCCESS;
+        }
+        */
+        // End of modification
 
         return ActionResult.PASS;
     }

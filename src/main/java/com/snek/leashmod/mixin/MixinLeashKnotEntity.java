@@ -1,8 +1,5 @@
-package me.pog5.leashmod.mixin;
+package me.snek.leashmod.mixin;
 
-import me.pog5.leashmod.LeashImpl;
-import me.pog5.leashmod.LeashPlayers;
-import me.pog5.leashmod.LeashSettings;
 import net.minecraft.entity.decoration.LeashKnotEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -17,6 +14,10 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+
+import me.snek.leashmod.LeashImpl;
+import me.snek.leashmod.LeashPlayers;
+import me.snek.leashmod.LeashSettings;
 
 @Mixin(LeashKnotEntity.class)
 public class MixinLeashKnotEntity {

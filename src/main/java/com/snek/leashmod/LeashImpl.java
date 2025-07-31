@@ -1,4 +1,4 @@
-package me.pog5.leashmod;
+package me.snek.leashmod;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;

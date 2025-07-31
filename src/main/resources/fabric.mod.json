@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "leashmod",
+  "id": "leashmod_patch",
   "version": "${version}",
 
-  "name": "Leashable Players",
-  "description": "A mod that let's you leash players with configurable gamerules!",
+  "name": "Leashable Players - Compatibility Patch",
+  "description": "A fork of the original LeashablePlayers mod — A mod that lets you leash players with configurable gamerules!",
   "authors": [
+    "UwU_Snek",
     "pog5", "terminalmaid"
   ],
-  "contact": {
-    "sources": "https://github.com/pog5/mc-leashplayers"
-  },
+  "contact": { },
 
   "license": "MIT",
   "icon": "assets/leashplayers/icon.png",
@@ -18,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.pog5.leashmod.LeashPlayers"
+      "com.snek.leashmod.LeashPlayers"
     ]
   },
   "mixins": [
